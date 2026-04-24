@@ -1,0 +1,32 @@
+# R / RStudio session junk
+.Rhistory
+.Rdata
+.RDataTmp
+.Ruserdata
+.Rproj.user/
+
+# Quarto render artifacts (figures embed directly in PDF)
+*_files/
+*_cache/
+.quarto/
+*.tex
+*.log
+*.aux
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.toc
+*.html
+
+# Save bundles (large, regenerated per render)
+*.rds
+
+# Personal workspace
+scratch/
+
+# Protected raw survey data
+data/
+
+# macOS
+.DS_Store
